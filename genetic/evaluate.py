@@ -44,10 +44,10 @@ class FitnessEvaluate(object):
 #                 cls_obj.do_work('1', file_name)
                 has_evaluated_offspring = True
                 time.sleep(60)
-                gpu_id = GPUTools.detect_availabel_gpu_id()
+                gpu_id = GPUTools.detect_available_gpu_id()
                 while gpu_id is None:
                     time.sleep(300)
-                    gpu_id = GPUTools.detect_availabel_gpu_id()
+                    gpu_id = GPUTools.detect_available_gpu_id()
                 if gpu_id is not None:
                     file_name = indi.id
                     self.log.info('Begin to train %s'%(file_name))
