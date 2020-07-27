@@ -66,7 +66,7 @@ class Crossover(object):
         while idx2 == idx1:
             idx2 = int(np.floor(np.random.random()*count_))
 
-        if self.individuals[idx1].acc > self.individuals[idx1].acc:
+        if self.individuals[idx1].acc > self.individuals[idx2].acc:
             return idx1
         else:
             return idx2
