@@ -20,9 +20,12 @@ It would be greatly appreciated if the following paper can be cited when the cod
 
 ```
 @article{sun2020automatically,
-  title={Automatically Designing CNN Architectures Using the Genetic Algorithm for Image Classification},
+  title={Automatically designing CNN architectures using the genetic algorithm for image classification},
   author={Sun, Yanan and Xue, Bing and Zhang, Mengjie and Yen, Gary G and Lv, Jiancheng},
-  journal={IEEE Transactions on Cybernetics},
+  journal={IEEE transactions on cybernetics},
+  volume={50},
+  number={9},
+  pages={3840--3854},
   year={2020},
   publisher={IEEE}
 }
