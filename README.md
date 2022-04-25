@@ -2,7 +2,7 @@
 
 Official implementation of the paper *Automatically Designing CNN Architectures Using the Genetic Algorithm for Image Classification*.
 
-This code has been uodated for the adaption to torchvision 0.12 and pytorch 1.11
+This code has been updated for the adaption to torchvision 0.12 and pytorch 1.11 [2022/02/25]
 ## Dependencies
 
 - numpy
